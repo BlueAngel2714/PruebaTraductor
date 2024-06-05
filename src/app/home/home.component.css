@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #D1CBCB; /* Fondo general */
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 800px;
+    margin-top: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.content h1 {
+    color: #6C6A6A; /* Color del título */
+}
+
+.content p {
+    color: #333333; /* Color del texto */
+}
+
+footer {
+    background-color: #4F4F4F; /* Fondo del pie de página */
+    color: #FFFFFF;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .content {
+        padding: 20px;
+    }
+
+}

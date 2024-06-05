@@ -1,0 +1,64 @@
+<div class="signupFrm">
+  <form class="form">
+    <h1 class="title">Regístrate</h1>
+
+    <div class="form-group">
+      <mat-form-field class="example-full-width">
+        <mat-label>Nombre</mat-label>
+        <input type="text" id="nombre" name="nombre" matInput required>
+      </mat-form-field>
+    </div>
+
+    <div class="form-group">
+      <mat-form-field class="example-full-width">
+        <mat-label>Apellido(s)</mat-label>
+        <input type="text" id="apellidos" name="apellidos" matInput required>
+      </mat-form-field>
+    </div>
+
+    <div class="form-group">
+      <mat-form-field class="example-full-width">
+        <mat-label>E-mail</mat-label>
+        <input type="email" id="email" name="email" matInput>
+      </mat-form-field>
+    </div>
+
+    <div class="form-group">
+      <mat-form-field class="example-full-width">
+        <mat-label>Username</mat-label>
+        <input type="text" id="username" name="username" matInput required>
+      </mat-form-field>
+    </div>
+
+    <div class="form-group">
+      <mat-form-field class="example-full-width">
+        <mat-label>Contraseña</mat-label>
+        <input type="password" id="contrasena" name="contrasena" matInput required>
+      </mat-form-field>
+    </div>
+
+    <div class="form-group">
+      <mat-form-field class="example-full-width">
+        <mat-label>Pregunta de recuperación de contraseña</mat-label>
+        <mat-select>
+          <mat-option>None</mat-option>
+          <mat-option value="1">¿Cuál es tu color favorito?</mat-option>
+          <mat-option value="2">¿Cuál es tu el nombre de tu mascota?</mat-option>
+          <mat-option value="3">¿Cuál es tu sobre nombre?</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <div class="form-group">
+      <mat-form-field class="example-full-width">
+        <mat-label>Respuesta</mat-label>
+        <input type="text" id="respuesta" name="respuesta" matInput required>
+      </mat-form-field>
+    </div>
+    <div class="form-group">
+      <button type="submit" mat-flat-button color="primary">Registrar</button>
+      <button type="button" mat-flat-button color="accent" routerLink="login">Iniciar Sesión</button>
+      <a mat-flat-button color="accent" routerLink="home">Inicio</a>
+    </div>
+  </form>
+</div>
